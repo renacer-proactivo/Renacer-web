@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Renacer Proactivo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    .blog-post {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .blog-post img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .category {
+      font-size: 0.9em;
+      color: #888;
+      margin-bottom: 5px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      margin-top: 10px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .redes a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #2980b9;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Renacer Proactivo</h1>
+    <p>Transformación personal y emprendimiento consciente</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#emprendimiento">Emprendimiento</a>
+    <a href="#blog">Blog</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>
+      Este es un espacio para personas que quieren construir una vida con propósito, mejorar su mentalidad y emprender con claridad. Aquí comparto experiencias, recursos y aprendizajes que te pueden ayudar a avanzar.
+    </p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy una persona comprometida con el desarrollo continuo. A lo largo de mi camino, he lanzado proyectos personales que nacieron del deseo de superación. Hoy acompaño a personas en su proceso de crecimiento, ayudándolas a encontrar su propio camino, liberarse de bloqueos y actuar con intención.
+    </p>
+  </section>
+
+  <section id="emprendimiento">
+    <h2>Renacer Proactivo</h2>
+    <p>
+      Es un espacio dedicado a ayudarte a tomar control de tu vida, descubrir tu potencial y emprender desde adentro hacia afuera. A través de contenidos, mentorías y herramientas prácticas, quiero que te reconectes con lo que realmente importa.
+    </p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+
+    <div class="blog-post">
+      <div class="category">🧠 Mentalidad</div>
+      <h3>Cómo dejar de postergar tus sueños</h3>
+      <img src="https://via.placeholder.com/800x400?text=Procrastinación+vs+Acción" alt="Imagen de superación personal" />
+      <p>
+        ¿Alguna vez sentiste que siempre estás esperando el momento perfecto? La verdad es que nunca llegará. Aquí te comparto una guía práctica para vencer la postergación y empezar hoy.
+      </p>
+    </div>
+
+    <div class="blog-post">
+      <div class="category">📈 Productividad</div>
+      <h3>5 hábitos diarios que cambian tu energía</h3>
+      <img src="https://via.placeholder.com/800x400?text=Hábitos+Productivos" alt="Imagen de productividad" />
+      <p>
+        Crear estructura no te limita, te libera. Estos 5 hábitos simples te ayudarán a recuperar enfoque, motivación y resultados reales.
+      </p>
+    </div>
+
+    <div class="blog-post">
+      <div class="category">🚀 Emprendimiento</div>
+      <h3>Cómo validar una idea sin invertir mucho</h3>
+      <img src="https://via.placeholder.com/800x400?text=Validar+Idea+de+Negocio" alt="Emprendimiento práctico" />
+      <p>
+        Validar una idea no requiere miles de dólares. Con estas técnicas de validación ligera puedes saber si tu producto o servicio tiene futuro antes de comprometer recursos.
+      </p>
+    </div>
+
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres dejar un comentario o escribirme directamente? Rellena el formulario:</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section class="redes">
+    <h2>Redes Sociales</h2>
+    <p>
+      📘 <a href="https://facebook.com/renacerproactivo" target="_blank">Facebook</a>
+      📸 <a href="https://instagram.com/renacer.proactivo" target="_blank">Instagram</a>
+      🎥 <a href="https://youtube.com/@renacerproactivo" target="_blank">YouTube</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Renacer Proactivo · Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
